@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Todo">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FBFBFB"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/Titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="#00FDD835"
+            android:text="BIENVENIDOS"
+            android:textColor="#006064"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tituloJuego"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="#00FDD835"
+            android:textColor="#FB8C00"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tituloSigueFrase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="#00FDD835"
+            android:textColor="#00B8D4"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tituloBeber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="#00FDD835"
+            android:textColor="#7CB342"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textV1"
+            android:layout_width="294dp"
+            android:layout_height="307dp"
+            android:layout_marginStart="20dp"
+            android:text="Disfrutad, bebed y sobretodo reiros mucho. QUE EMPIEZE EL JUEGO!!!"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Titulo"
+            app:layout_constraintVertical_bias="0.24000001" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="67dp"
+            android:layout_height="49dp"
+            android:onClick="siguiente"
+            android:textSize="30sp"
+            app:icon="@android:drawable/ic_media_ff"
+            app:iconPadding="40dp"
+            app:iconTint="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Titulo"
+            app:layout_constraintVertical_bias="0.655" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="215dp"
+            android:layout_height="137dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.988"
+            app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
