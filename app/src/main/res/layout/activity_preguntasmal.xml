@@ -4,36 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".yoNunca">
+    tools:context=".preguntasmal">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/fondo3"
-        tools:context=".MainActivity">
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="67dp"
-            android:layout_height="57dp"
-            android:background="@drawable/pngwing_com"
-            android:onClick="siguiente"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Titulo"
-            app:layout_constraintVertical_bias="0.749" />
+        android:background="@drawable/fondo5"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="-94dp"
+        tools:layout_editor_absoluteY="16dp">
 
         <TextView
             android:id="@+id/Titulo"
+            style="@style/Widget.AppCompat.TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
             android:background="#00FDD835"
             android:fontFamily="@font/chonburi"
-            android:text="YO NUNCA"
-            android:textColor="#67A6D8"
+            android:text="PREGUNTAS MAL"
+            android:textColor="#A9DCDC"
             android:textSize="36sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/button"
@@ -43,18 +33,44 @@
 
         <TextView
             android:id="@+id/textV1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="252dp"
+            android:layout_height="167dp"
             android:fontFamily="@font/chonburi"
-            android:text="Yo nunca...."
+            android:text="Solo respuestas incorrectas..."
             android:textColor="#FFFFFF"
             android:textSize="24sp"
+            app:barrierMargin="2px"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Titulo"
             app:layout_constraintVertical_bias="0.278" />
+
+        <TextView
+            android:id="@+id/numeros"
+            android:layout_width="45dp"
+            android:layout_height="15dp"
+            android:textColor="#EAE7E7"
+            android:textSize="24sp"
+            app:barrierMargin="2px"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Titulo"
+            app:layout_constraintVertical_bias="0.765" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="67dp"
+            android:layout_height="57dp"
+            android:background="@drawable/pngwing_com"
+            android:onClick="siguiente"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Titulo"
+            app:layout_constraintVertical_bias="0.79" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,26 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".yoNunca">
+    tools:context=".quePrefieres">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/fondo3"
-        tools:context=".MainActivity">
+        android:background="@drawable/fondo2"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/button5"
             android:layout_width="67dp"
             android:layout_height="57dp"
+            android:layout_marginTop="464dp"
             android:background="@drawable/pngwing_com"
             android:onClick="siguiente"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Titulo"
-            app:layout_constraintVertical_bias="0.749" />
+            app:layout_constraintVertical_bias="0.713" />
 
         <TextView
             android:id="@+id/Titulo"
@@ -32,8 +34,8 @@
             android:layout_marginTop="50dp"
             android:background="#00FDD835"
             android:fontFamily="@font/chonburi"
-            android:text="YO NUNCA"
-            android:textColor="#67A6D8"
+            android:text="QUE PREFIERES"
+            android:textColor="#A9DCDC"
             android:textSize="36sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/button"
@@ -42,19 +44,38 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textV1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/textV"
+            android:layout_width="335dp"
+            android:layout_height="150dp"
             android:fontFamily="@font/chonburi"
-            android:text="Yo nunca...."
-            android:textColor="#FFFFFF"
+            android:text="¿Qué preferirias?"
+            android:textAppearance="@style/Theme.ChavParty"
+            android:textColor="#FD7373"
             android:textSize="24sp"
+            app:barrierMargin="2px"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintHorizontal_bias="0.605"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Titulo"
-            app:layout_constraintVertical_bias="0.278" />
+            app:layout_constraintVertical_bias="0.146" />
+
+        <TextView
+            android:id="@+id/textV2"
+            android:layout_width="335dp"
+            android:layout_height="150dp"
+            android:fontFamily="@font/chonburi"
+            android:text="¿Qué preferirias?"
+            android:textAppearance="@style/Theme.ChavParty"
+            android:textColor="#88DF63"
+            android:textSize="24sp"
+            app:barrierMargin="2px"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.605"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Titulo"
+            app:layout_constraintVertical_bias="0.607" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

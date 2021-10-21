@@ -4,20 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="@drawable/fondo4"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/button"
-        android:layout_width="144dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="324dp"
+        android:layout_width="259dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="160dp"
         android:background="#006064"
+        android:fontFamily="@font/chonburi"
         android:onClick="Todo"
-        android:text="TODO"
+        android:text="CHAVPARTY"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -25,13 +27,47 @@
         android:id="@+id/button3"
         android:layout_width="240dp"
         android:layout_height="51dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="28dp"
         android:background="#006064"
+        android:fontFamily="@font/chonburi"
         android:onClick="yoNunca"
         android:text="YO NUNCA"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/pMAL"
+        android:layout_width="240dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="108dp"
+        android:background="#006064"
+        android:fontFamily="@font/chonburi"
+        android:onClick="PmAL"
+        android:text="PREGUNTAS MAL"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/pMAL2"
+        android:layout_width="279dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="180dp"
+        android:background="#006064"
+        android:fontFamily="@font/chonburi"
+        android:onClick="quePrefieres"
+        android:text="QUE PREFIERES"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
@@ -41,13 +77,15 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:background="#00FD1616"
+        android:fontFamily="@font/chonburi"
         android:text="ELEGIR MODO"
-        android:textColor="#006064"
+        android:textColor="#67A6D8"
         android:textSize="36sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
