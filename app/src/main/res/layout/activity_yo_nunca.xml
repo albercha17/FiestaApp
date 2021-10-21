@@ -43,8 +43,8 @@
 
         <TextView
             android:id="@+id/textV1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="312dp"
+            android:layout_height="284dp"
             android:fontFamily="@font/chonburi"
             android:text="Yo nunca...."
             android:textColor="#FFFFFF"
