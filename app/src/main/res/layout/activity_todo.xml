@@ -97,8 +97,8 @@
 
         <TextView
             android:id="@+id/textV1"
-            android:layout_width="294dp"
-            android:layout_height="307dp"
+            android:layout_width="289dp"
+            android:layout_height="391dp"
             android:layout_marginStart="20dp"
             android:fontFamily="@font/chonburi"
             android:text="Disfrutad, bebed y sobretodo reiros mucho. QUE EMPIEZE EL JUEGO!!!"
